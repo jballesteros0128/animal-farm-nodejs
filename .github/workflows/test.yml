@@ -1,12 +1,13 @@
-name: Animal Farm Node.js CI
+name: NodeJS CI
 
 on:
   push:
-   branches:
+    branches:
       - main
   pull_request:
     branches:
       - main
+
 
 jobs:
   build:
