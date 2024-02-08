@@ -22,9 +22,3 @@ jobs:
       run: yarn
     - name: Run tests
       run: yarn test 
-
-        node-version: '18.x'
-    - name: Run Yarn
-      run: yarn
-    - name: Run tests
-      run: yarn test 
